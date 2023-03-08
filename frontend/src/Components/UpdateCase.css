@@ -1,0 +1,28 @@
+.lol{
+    background-image: url("E:\React frontend\paranormal\assets\ParaRecords2K_add.png");
+    background-size: cover;
+    height: 115vh;
+}
+
+.container{
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(152, 151, 148);
+    position:absolute;
+    opacity: 0.9;
+    top: 65%;
+    left: 50%;
+    width:60%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.bonk{
+    font-weight: bolder;
+    padding: 5px 5px 5px 5px;
+
+}
+
+
+

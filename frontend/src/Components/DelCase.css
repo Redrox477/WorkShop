@@ -1,0 +1,29 @@
+.pang{
+    background-image: url("E:\React frontend\paranormal\assets\ParaRecords_all.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.bonk{
+    font-weight: bolder;
+    padding: 7px 7px 7px 7px;
+
+}
+.containers{
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(152, 151, 148);
+    position:absolute;
+    opacity: 0.9;
+    top: 40%;
+    left: 50%;
+    width:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+h3{
+    padding: 7px 7px 7px 7px;
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+body{
+  overflow-x: hidden;
+}
+.wrapper{
+    background-image:url("E:\React frontend\paranormal\assets\ParaRecords2K.png");
+    background-size:cover;
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    font-family: 'Lato', sans-serif;
+    /* overflow: hidden; */
+  }
+  
+  .get{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .post{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .put{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .del{
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+  .link_wrapper a{
+    display: block;
+    width: 300px;
+    height: 55px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none !important ;
+    background: #333;
+    text-align: center;
+    color: #fff !important ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+    border: 3px solid #bab8b8;
+    opacity: 0.75;
+    border-radius: 20px;
+
+  }
+  
+  
+  .link_wrapper a:hover{
+    width: 350px;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71 !important;
+    opacity: 1;
+  }
+  

@@ -1,0 +1,46 @@
+.lampa{
+    height: 100vh;
+    padding-top: 1px;
+    background-image: url("E:\React frontend\paranormal\assets\ParaRecords_all.png");
+    background-size: cover;
+}
+
+/* Card */
+
+    
+.card-body {
+  padding: 0 20px 20px 20px;
+  /* background-color: rgb(152, 151, 148); */
+  margin-top: 10px;
+  position:absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 76%;
+}
+
+table{
+  border-radius: 20px !important ;
+}
+  
+thead{
+  background-color: rgb(0, 0, 0) !important;
+  color: white;
+  padding-left: 1px;
+  font-weight: bolder;
+  text-align: center;
+ }
+
+table tbody tr{
+  background-color: #737373;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.85;
+}
+table tbody tr:hover{
+  background-color: #b7b7b7;
+  opacity: 0.95 !important;
+  /* font-size:large; */
+}
+
+
